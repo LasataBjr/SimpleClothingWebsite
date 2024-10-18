@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/*body{
+/*	background: white;
+	background-size: cover;
+	background-position: center;
+}*/
+.adminlogo h1 span{
+	color: darkcyan;
+	font-weight: 600;
+}
+.sidebar{
+	background: #1b1a1b;
+	width: 18%;
+	min-height: 100vh;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 60px; /* To push the sidebar content below the navbar */
+    
+}
+.adminlogo{
+	margin: 5px;
+}
+.adminlogo h1{
+	color: white;
+	text-align: center;
+	font-weight: 500px;
+	font-size: 27px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+.menu{
+	width: 100%;
+	margin-top: 20px;
+}
+.menu .items{
+	position: relative;
+	cursor: pointer;
+}
+.menu .items a{
+	color: #fff;
+	font-size: 18px;
+	display: block;
+	padding: 5px 30px;
+	text-decoration: none;
+	line-height: 60px;
+	border-left: 3px solid transparent;
+	z-index: 3;
+}
+.items i{
+	margin-right: 10px;
+	font-size: 14px;
+}
+.items .dropdown{
+	position: absolute;
+	right: 0;
+	margin: 22px;
+	transition: transform 0.3s ease;
+}
+.dropdown.rotate{
+	transform: rotate(90deg);
+}
+.dropdown-menu{
+	background: #262627;
+	display: none;
+}
+.dropdown-menu .sub-item a{
+	padding-left: 60px;
+}
+
+.sidebar a:hover{
+	background-color: #575757;
+	border-left-color: white;
+}
