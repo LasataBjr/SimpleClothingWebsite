@@ -1,5 +1,5 @@
 <?php
- $con = mysqli_connect('localhost','root','','test') or die("Connection Error");
+ $con = mysqli_connect('localhost','root','','ClothingStore_DB') or die("Connection Error");
 			//echo"Connection established<br/>";
 
 class useful_func

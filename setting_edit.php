@@ -5,7 +5,7 @@
 	$a = new useful_func();
 	$a->checklogin();
 	$col_name = 'SN';
-	$table = 'setting';
+	$table = 'setting_tb';
 	$img_path = "Assets/Images/upload_img/";
 	$content = $a->fetch_multiple_data($table);
 	

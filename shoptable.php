@@ -5,8 +5,8 @@ session_start();
 	$a = new useful_func(); 
 	$a->checklogin();
 	
-	$table = "featured_product";
-	$tab = "newarrival_product";
+	$table = "featured_product_tb";
+	$tab = "newarrival_product_tb";
 	$img_path = "Assets/Images/upload_img/";
 	$select = $a->fetch_multiple_data($table);//to show the inserted/updated value in table format
 	$sel = $a->fetch_multiple_data($tab);

@@ -5,7 +5,7 @@
 	$a->checklogin();
 	//$a->test_function();
 	//checking if the database contains the data or not
-	$table = 'home_page';
+	$table = 'home_page_tb';
 	$home = $a->fetch_multiple_data($table);
 	  if(!empty($home))
 	    {

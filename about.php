@@ -1,8 +1,8 @@
 <?php
 	require_once("useful_func.php");
 	$a = new useful_func(); //creating object
-	$setting = $a->fetch_multiple_data('setting');
-	$about = $a->fetch_multiple_data('about');
+	$setting = $a->fetch_multiple_data('setting_tb');
+	$about = $a->fetch_multiple_data('about_tb');
 	$img_path = "Assets/Images/upload_img/";
 
 ?>

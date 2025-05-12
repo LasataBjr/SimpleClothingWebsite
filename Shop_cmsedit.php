@@ -6,7 +6,7 @@ session_start();
 		if(isset($_GET['row']))
 		{	
 			$id = $_GET['row'];
-			$table = "featured_product";
+			$table = "featured_product_tb";
 			$id_name = "SN";
 			$data = $a->fetch_rowdata($table,$id,$id_name);
 

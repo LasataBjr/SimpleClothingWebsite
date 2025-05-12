@@ -2,8 +2,8 @@
 <?php
 	require_once("useful_func.php");
 	$a = new useful_func(); //creating object
-	$setting = $a->fetch_multiple_data('setting');
-	$gallery = $a->fetch_multiple_data('gallery');
+	$setting = $a->fetch_multiple_data('setting_tb');
+	$gallery = $a->fetch_multiple_data('gallery_tb');
 	$img_path = "Assets/Images/upload_img/";
 	$fob = array();
 	$slider = array();

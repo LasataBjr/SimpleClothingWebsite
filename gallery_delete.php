@@ -4,7 +4,7 @@
 	$a = new useful_func(); 
 	$row = $_GET['row'];
 	$col= 'SN';
-	$table = "gallery";
+	$table = "gallery_tb";
 	if($a->delete($table,$col,$row)){
 		header("Location: Gallerytable.php");
 		exit();

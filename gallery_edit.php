@@ -5,7 +5,7 @@ session_start();
     $a->checklogin();
     //$a->test_function();
     //checking if the database contains the data or not
-    $table = 'gallery';
+    $table = 'gallery_tb';
     $img_path = "Assets/Images/upload_img/";
     $id_name = 'SN';
     if(isset($_GET['row']))

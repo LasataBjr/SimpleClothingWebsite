@@ -5,7 +5,7 @@
     $a->checklogin();
     //$a->test_function();
     //checking if the database contains the data or not
-    $table = 'about';
+    $table = 'about_tb';
     $img_path = "Assets/Images/upload_img/";
     $about = $a->fetch_multiple_data($table);
     if(!empty($about))

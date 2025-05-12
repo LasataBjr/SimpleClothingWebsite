@@ -1,12 +1,12 @@
 <?php
 		require_once("useful_func.php");
 		$a = new useful_func();
-		$table = "featured_product";
-		$tab = "newarrival_product";
+		$table = "featured_product_tb";
+		$tab = "newarrival_product_tb";
 		$img_path = "Assets/Images/upload_img/";
 		$data = $a->fetch_multiple_data($table);
 		$result = $a->fetch_multiple_data($tab);
-		$setting = $a->fetch_multiple_data('setting');
+		$setting = $a->fetch_multiple_data('setting_tb');
 
 ?>
 

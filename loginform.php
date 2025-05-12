@@ -17,7 +17,7 @@
         $password = mysqli_real_escape_string($con,$password);
         $password = md5($password);
 
-        $table = 'user';
+        $table = 'user_tb';
         $id = 'SN';
         $id_name = 1;
         $result = $a->fetch_rowdata($table,$id,$id_name);

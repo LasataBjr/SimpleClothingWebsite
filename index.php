@@ -2,11 +2,11 @@
 	require_once("useful_func.php");
 	$a = new useful_func(); //creating object
 	//checking if the database contains the data or not
-	$table = 'home_page';
+	$table = 'home_page_tb';
 	$img_path = "Assets/Images/upload_img/";
 	$home = $a->fetch_multiple_data($table);
 	$content = $home[0]['Home_content'];
-	$setting = $a->fetch_multiple_data('setting');
+	$setting = $a->fetch_multiple_data('setting_tb');
 	
 ?>
 <!DOCTYPE html>

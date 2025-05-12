@@ -4,7 +4,7 @@
     $a = new useful_func();
     $a->checklogin();
     $col_name = 'SN';
-    $table = 'about';
+    $table = 'about_tb';
     $img_path = "Assets/Images/upload_img/";
     $content = $a->fetch_multiple_data($table);
     if(isset($_POST['submit']))

@@ -5,7 +5,7 @@
 	
 	//$a->test_function();
 	//checking if the database contains the data or not
-	$table = 'setting';
+	$table = 'setting_tb';
 	$setting = $a->fetch_multiple_data($table);
 	if(!empty($setting))
 	{

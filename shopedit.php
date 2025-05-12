@@ -5,7 +5,7 @@ session_start();
 		if(isset($_GET['row']))
 		{	
 			$id = $_GET['row'];
-			$table = "newarrival_product";
+			$table = "newarrival_product_tb";
 			$id_name = "SN";
 			$img_path = "Assets/Images/upload_img/";
 			$data = $a->fetch_rowdata($table,$id,$id_name);

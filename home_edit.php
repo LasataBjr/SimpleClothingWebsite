@@ -2,9 +2,9 @@
 	session_start();
 	require_once("useful_func.php");
 	$a = new useful_func();
-	$home_content = $a->fetch_multiple_data('home_page');
+	$home_content = $a->fetch_multiple_data('home_page_tb');
 	$col_name = 'Homepage_id';
-	$table = 'home_page';
+	$table = 'home_page_tb';
 	$img_path = "Assets/Images/upload_img/";
 	if(isset($_POST['submit']))
 	{

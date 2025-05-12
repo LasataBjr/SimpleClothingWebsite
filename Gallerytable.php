@@ -5,7 +5,7 @@
     //$a->checklogin();
     //$a->test_function();
     //checking if the database contains the data or not
-    $table = 'gallery';
+    $table = 'gallery_tb';
     $img_path = "Assets/Images/upload_img/";
     $gallery = $a->fetch_multiple_data($table);
  ?>
